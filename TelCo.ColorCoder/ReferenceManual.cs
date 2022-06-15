@@ -13,8 +13,8 @@ namespace TelCo.ColorCoder
         {
             using (StreamWriter streamWriter = new StreamWriter(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ReferenceManual.txt")))
             {
-                streamWriter.WriteLine("Code\tColorPair");
-                Console.WriteLine("Code\t\tColorPair");
+                streamWriter.WriteLine("Code\tColorPair (Major, Minor)");
+                Console.WriteLine("Code\t\tColorPair (Major, Minor)");
                 for (int colorCode = 1; colorCode <= colorMapMajor.Length * colorMapMinor.Length; colorCode++)
                 {
                     ColorPair colorPair = GetColor.GetColorFromPairNumber(colorCode);
