@@ -6,6 +6,9 @@ namespace TelCo.ColorCoder
 {
     class ReferenceManual
     {
+        /// <summary>
+        /// Creating Reference Manual in a text file for users to print
+        /// </summary>
         public void PrintManual()
         {
             using (StreamWriter streamWriter = new StreamWriter(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ReferenceManual.txt")))
