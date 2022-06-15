@@ -7,6 +7,10 @@ namespace TelCo.ColorCoder
 {
     class TestCase
     {
+        /// <summary>
+        /// Test Cases to get color from pair numbers
+        /// Test Cases to get pair number for color
+        /// </summary>
         public void ColorCoderTestCases()
         {
             int pairNumber = 4;
